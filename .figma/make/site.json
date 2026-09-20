@@ -1,5 +1,10 @@
 {
+  "title": "Лектор-МК — правопис за македонски",
+  "language": "mk",
   "description": "Enhance your browsing experience with a Macedonian browser extension that offers localized content, language support, and cultural insights for users.",
+  "icons": {
+    "icon": "/favicon.png"
+  },
   "robots": {
     "index": false
   },

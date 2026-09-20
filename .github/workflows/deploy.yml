@@ -28,8 +28,6 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
-        env:
-          FIGMA_PUBLIC_URL: /lektor-site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Outfit:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-red: #CE2028;
+  --color-red-dark: #A0181E;
+  --color-gold: #F5C41C;
+  --color-gold-dark: #C49A14;
+  --color-bg: #0E0404;
+  --color-surface: #1A0808;
+  --color-panel: #240C0C;
+  --color-border: #350F0F;
+  --font-display: 'Merriweather', serif;
+  --font-body: 'Outfit', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background: #0E0404;
+  color: #fff;
+}
+
+::selection { background: #CE2028; color: #fff; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0E0404; }
+::-webkit-scrollbar-thumb { background: #CE2028; }

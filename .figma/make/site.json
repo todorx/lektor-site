@@ -1,0 +1,10 @@
+{
+  "description": "Enhance your browsing experience with a Macedonian browser extension that offers localized content, language support, and cultural insights for users.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
